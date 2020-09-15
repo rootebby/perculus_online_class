@@ -39,17 +39,31 @@ Deneme : {}
 				hata.click()
 				say += 1
 
-
-import time
-from selenium import webdriver
-
+###################################
+import time                       #
+							      #
+from selenium import webdriver    #
+###################################
 url = "https://finalkurs.perculus.com/login"
-print("""
-Seçenekler : 
-1. Login
-2. Brute Force
-	""")
-lil = int(input("Seçenek : "))
+def logo1():
+        print("""
+    *************************
+    | coded by root@ebby:~# |
+    *************************
+    |    Seçenekler         |
+    *************************
+    |    1. Login           |
+    *************************
+    |    2. Brute Force     |
+    *************************
+    |    3. Çıkış           |
+    ************************* 
+        """)
+
+
+lil = int(
+	input("Seçenek : ")
+	)
 
 if lil == 1:
 	username = input("E-Posta | Kullanıcı Adı : ")
